@@ -74,8 +74,7 @@ h3{
 
 
 .bigdivi{
-    display: flex;
-    justify-content: space-evenly;
+ 
     width: 155%;
     /* height: 500px; */
     margin-left: -280px;
@@ -128,7 +127,7 @@ h3{
 
 .line{
  
-    height: 406px;
+    height: 440px;
     width: 2px;
     background-color: #C4C4C4;
     left: 50%;
@@ -151,6 +150,7 @@ h3{
         transform: rotate(180deg);
     }
     .main {
+        clear: both;
         flex-direction: column;
         width: 100%;
         justify-items: center;
@@ -235,12 +235,15 @@ h3{
         width: 100%;
         display: block;
         margin-top: 120px;
+
     }
     .line{
         display: none;
     }
     .one, .two, .three, .four{
         align-items: center;
+       
+        
                
     }
     .three, .four{
@@ -253,9 +256,19 @@ h3{
         text-align: center;
         font-size: 16px;
         width: 300px;
-        margin-bottom: 50px;
-
-
- 
+        margin-top: 6px;
+  
 }
+.one{
+    top: 0;  
+ }
+ .two{
+     top: 300px;  
+ }
+ .three{
+     top: 150px;
+ }
+ .four{
+     top: 450px;
+ }
 }
